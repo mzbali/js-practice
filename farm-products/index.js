@@ -1,10 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const Product = require('./models/product');
-const Farm = require('./models/Farm');
+const Farm = require('./models/farm');
 const path = require('path');
 const methodOverride = require('method-override');
-const { findByIdAndDelete } = require('./models/Farm');
 
 const app = express();
 
